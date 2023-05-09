@@ -1,0 +1,10 @@
+<%- include("templates/header") %>
+    <h1>Log in</h1>
+    <form action='/loggingin' method='post'>
+        <input type="email" class="form-control" aria-describedby="emailHelp" name="email" placeholder="email">
+        <input type="password" class="form-control" name="password" placeholder="password">
+        <button class="btn login-button">Submit</button>
+    </form>
+    <br>
+    <%= error %>
+<%- include("templates/footer") %>

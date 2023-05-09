@@ -1,0 +1,53 @@
+.header-background {
+    background-color: #3388ff;
+}
+
+.footer-background {
+    background-color: #bfbfbf;
+}
+
+.footer-icon {
+    width: 48px;
+    height: auto;
+}
+
+.navbar-text {
+    color: #000000;
+}
+
+.navbar-brand {
+    font-size: 20pt;
+}
+
+.fixed-bottom {
+    margin-top: 80px;
+}
+
+.logout-button {
+    background-color: #992299;
+}
+
+.mainpage-button {
+    background-color: #aa1199;
+}
+
+.login-button {
+    background-color: #3366ff;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.form-control {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 50%;
+}
+
+.form-text {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}

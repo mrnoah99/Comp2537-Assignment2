@@ -1,0 +1,17 @@
+<%- include("templates/header") %>
+    <h1>Sign up</h1>
+    <form action='/submitUser' method='post'>
+        <div class="mb-3">
+            <input type="text" class="form-control" name="name" placeholder="name">
+            <input type="email" class="form-control" aria-describedby="emailHelp" name="email" placeholder="email">
+            <input type="password" class="form-control" name="password" placeholder="password">
+            <button type="submit" class="btn login-button">Submit</button>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+    </form>
+    <p>
+        <%= error %>
+        <br>
+        <%= error2 %>
+    </p>
+<%- include("templates/footer") %>
